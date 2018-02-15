@@ -2,8 +2,8 @@ class RpiInstall < Formula
   desc "Raspberry Pi uploading script for cs107e"
   homepage "https://cs107e.github.io/guides/mac_toolchain/"
   url "https://cs107e.github.io/guides/mac_toolchain/rpi-install.py"
-  version "0.8-cs107e"
-  sha256 "25b5cf442964def2bf5c0a9c57b221799104131da9b0bfcb5cb95d16e0f456ab"
+  version "0.9-cs107e"
+  sha256 "ee6c3d685189e4d67f931fb030e2f482cb0c2209d0e04a1f7430ba0111eed0f0"
 
   def install
     bin.install "rpi-install.py"
