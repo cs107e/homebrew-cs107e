@@ -10,3 +10,6 @@ following command:
 To install the CS107e ARM toolchain using Homebrew, run the following commands:
 
     $ brew install arm-none-eabi
+
+## Other
+In the distant past, the cs107e tap also had formula for `rpi-install.py` but that script has since moved to be part of the courseware repo.
