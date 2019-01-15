@@ -11,10 +11,5 @@ To install the CS107e ARM toolchain using Homebrew, run the following commands:
 
     $ brew install arm-none-eabi
 
-## Install rpi-install.py
-
-To install the Raspberry Pi upload script, run the following commands:
-
-    $ sudo pip install pyserial
-    $ sudo pip install xmodem
-    $ brew install rpi-install
+## Other
+In the distant past, the cs107e tap also had formula for `rpi-install.py` but that script has since moved to be part of the courseware repo.
