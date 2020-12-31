@@ -1,6 +1,6 @@
 
 class ArmNoneEabi9 < Formula
-  desc "ARM toolchain for cs107e"
+  desc "ARM embedded toolchain MacOS for cs107e"
   homepage "https://cs107e.github.io/guides/install/"
   url "https://github.com/cs107e/homebrew-cs107e/raw/master/mac-arm-none-eabi-9.tar.bz2"
   version "9-2019q4-cs107e"
