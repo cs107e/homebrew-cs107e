@@ -1,4 +1,3 @@
-require "FileUtils"
 
 class ArmNoneEabi4 < Formula
   desc "ARM toolchain for cs107e"
