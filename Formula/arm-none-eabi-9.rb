@@ -1,6 +1,6 @@
 require "FileUtils"
 
-class ArmNoneEabi < Formula
+class ArmNoneEabi9 < Formula
   desc "ARM toolchain for cs107e"
   homepage "https://cs107e.github.io/guides/install/"
   url "https://cs107e.github.io/toolchain/mac-arm-none-eabi-9.tar.bz2"
