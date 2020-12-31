@@ -9,5 +9,8 @@ class ArmNoneEabi9 < Formula
   def install
     ohai "Copying binaries..."
     cp_r %w[arm-none-eabi bin lib share], "#{prefix}/"
+    ohai "Installing manpages..."
+    man1.install Dir['share/doc/gcc-arm-none-eabi/man/man1/*']
   end
+
 end
