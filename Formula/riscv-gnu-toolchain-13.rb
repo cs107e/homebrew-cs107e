@@ -2,13 +2,15 @@ class RiscvGnuToolchain13 < Formula
   desc "Pre-built RISC-V GNU toolchain for CS107e"
   homepage "https://cs107e.github.io/guides/install/"
   version "13-2024q1-cs107e"
+  depends_on "libusb"
+  depends_on "pkg-config"
 
   if Hardware::CPU.arm?
-    url "https://github.com/cs107e/homebrew-cs107e/raw/master/riscv-gnu-toolchain-arm.13.tar.gz"
-    sha256 "6be584a4a25058bd87b8687c27d3f4625f2e0adf1b128a823d2ee3ee6c7767c7"
+    url "https://github.com/cs107e/homebrew-cs107e/raw/master/BrewPackages/riscv-gnu-toolchain-arm.13.tar.gz"
+    sha256 "6f330a381d5b76f56cf54183ca8d8a6c257abbfd1e9274b3aaa2524d83df371e"
   else
-    url "https://github.com/cs107e/homebrew-cs107e/raw/master/riscv-gnu-toolchain-intel.13.tar.gz"
-    sha256 "dae252a926c582f65102b58aef1cec364bdbf5d4d8bdd2724ca9b7327fe97988"
+    url "https://github.com/cs107e/homebrew-cs107e/raw/master/BrewPackages/riscv-gnu-toolchain-intel.13.tar.gz"
+    sha256 "7cbcf40dcc8d5a3d8f0ce7d567c52be881a4b3179f0f298b9eb64c5eb12a7c77"
   end
 
   def install
