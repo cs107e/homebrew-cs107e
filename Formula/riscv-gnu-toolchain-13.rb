@@ -4,6 +4,10 @@ class RiscvGnuToolchain13 < Formula
   version "13-2024q1-cs107e"
   depends_on "libusb"
   depends_on "pkg-config"
+  depends_on "isl"
+  depends_on "gettext"
+  depends_on "zstd"
+  depends_on "libmpc"
 
   if Hardware::CPU.arm?
     url "https://github.com/cs107e/homebrew-cs107e/raw/master/BrewPackages/riscv-gnu-toolchain-arm.13.tar.gz"
