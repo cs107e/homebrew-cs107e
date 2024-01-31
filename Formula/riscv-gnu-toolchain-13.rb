@@ -1,7 +1,7 @@
 class RiscvGnuToolchain13 < Formula
   desc "Pre-built RISC-V GNU toolchain for CS107e"
   homepage "https://cs107e.github.io/guides/install/"
-  version "13-2024q1-cs107e"
+  version "13.1-2024q1-cs107e"
   depends_on "libusb"
   depends_on "pkg-config"
   depends_on "isl"
