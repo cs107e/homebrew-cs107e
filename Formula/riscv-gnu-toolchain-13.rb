@@ -11,10 +11,10 @@ class RiscvGnuToolchain13 < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/cs107e/homebrew-cs107e/raw/master/BrewPackages/riscv-gnu-toolchain-arm.13.tar.gz"
-    sha256 "6f330a381d5b76f56cf54183ca8d8a6c257abbfd1e9274b3aaa2524d83df371e"
+    sha256 "d6e74ea7cf0a31ae7d4a7113ec7da01d5162f6bfa87f7af4ba8071140b4d8daf"
   else
     url "https://github.com/cs107e/homebrew-cs107e/raw/master/BrewPackages/riscv-gnu-toolchain-intel.13.tar.gz"
-    sha256 "7cbcf40dcc8d5a3d8f0ce7d567c52be881a4b3179f0f298b9eb64c5eb12a7c77"
+    sha256 "b426edcd53a2ac4c650929e397fd89f19585e4ca31d498c657f8e5e095268bf2"
   end
 
   def install
