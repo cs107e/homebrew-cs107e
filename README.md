@@ -11,12 +11,3 @@ To install the CS107e RISC-V embedded toolchain using Homebrew, run the followin
 
     $ brew install riscv-gnu-toolchain-13
     
-## Install ARM Toolchain
-
-To install the CS107e ARM embedded toolchain using Homebrew, run the following commands:
-
-    $ brew install arm-none-eabi
-
-## Other
-
-The Ubuntu package file (gdb with simulator, built by mchang, thanks) also lives here
