@@ -14,7 +14,7 @@ class RiscvGnuToolchain13 < Formula
     sha256 "d2a394e89898c116acb9f97ded6a27da762d2c3fb3cf884f760434fb4166ab0c"
   else
     url "https://github.com/cs107e/homebrew-cs107e/raw/master/BrewPackages/riscv-gnu-toolchain-intel.13.tar.gz"
-    sha256 "13b21189bfb75ea0688df1aabbb22af9d45602c798262d45e72dafab291ad7a0"
+    sha256 "a4b9a76916a3972225163ff434512bdbe33c830e6f7f51430a0ab61c0106f7ae"
 
   end
 
